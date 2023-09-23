@@ -1,9 +1,110 @@
-# Trend_Finder_Updated
+# Trend Finder
 
-This is a program that allows the user to input a stock symbol, start date, and end date, and then loads the historical data for the specified period. The program then applies technical analysis indicators to the data, including RSI, simple moving averages, support and resistance levels, and a trading strategy based on the SMA20 and SMA50 crossover and the support and resistance levels. The program then returns the processed data and the investment and profit/loss from the trading strategy.
+![Project Image](project_image.png)
 
-The program is implemented using the Tkinter library for the graphical user interface (GUI), Pandas for data processing, Matplotlib and mplfinance for visualization, TALib for technical analysis, and Yahoo Finance API for data retrieval.
+This is a Python program for analyzing stock data using various technical indicators and implementing a simple trading strategy. The program allows the user to input a stock symbol, start date, and end date, then loads historical data for the specified period, applies technical analysis indicators, and provides investment and profit/loss information based on a trading strategy.
 
-The program consists of a load_data() function that takes three arguments: the stock symbol, start date, and end date. This function retrieves the historical data using the Yahoo Finance API and applies various technical indicators to the data. It then implements a simple trading strategy based on the SMA20 and SMA50 crossover and the support and resistance levels. The function returns the processed data and the investment and profit/loss from the trading strategy.
 
-The program also includes a GUI that allows the user to input the stock symbol, start date, and end date, and then displays the processed data and the investment and profit/loss from the trading strategy. The GUI is implemented using Tkinter and includes input fields for the stock symbol, start date, and end date, as well as buttons to load the data and display the results.
+## Features
+
+- Retrieve historical stock data using Yahoo Finance API.
+- Candlestick Chart visualization of support and resistance levels.
+- Apply technical analysis indicators, including RSI, simple moving averages, support and resistance levels.
+- Implement a trading strategy based on the SMA20 and SMA50 crossover and support/resistance levels.
+- GUI implemented using Tkinter for user-friendly interaction.
+
+
+## Update 1
+
+- Unit testing using `unittest` and `pytest`.
+- Code coverage analysis.
+- Exception handling.
+- File handling.
+- Backtesting algorithm on multiple stocks and time ranges.
+- Cleaned candlestick chart visualization.
+- Advanced trading algorithm utilizing multiple indicators.
+- Enhanced user-friendly GUI with additional charts.
+- Improved code and file structure
+
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Python 3.7 or higher installed.
+
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/codevshl/Trend_Finder_Updated.git
+
+
+## Usage
+Run the main program:
+- Run GUI file using required commands
+
+- The GUI will open, allowing you to input the stock symbol, start date, and end date.
+
+- Click the ` Submit ` button to retrieve and analyze the stock data.
+
+- It will display the processed data and investment/profit information.
+
+- Click the ` Display Dataframe ` button for get data of ticker symbol you provided
+
+- Click on dropdown button and click on ` Plot Data ` to get required charts
+
+
+## Testing
+1. For unittest:
+
+```bash
+cd "required_path"
+python "your_filename"
+```
+Replace your_test_directory/ with the actual directory where your test files are located and your_filename with the actual filename.
+
+2. For pytest:
+
+If you haven't already installed pytest, you can do so using pip:
+
+```bash
+pip install pytest
+```
+
+```bash
+cd "required_path"
+pytest "your_filename"
+```
+Replace your_test_directory/ with the actual directory where your test files are located and your_filename with the actual filename.
+
+
+## Code Coverage
+
+1. Install coverage.py:
+
+If you haven't already installed coverage.py, you can do so using pip:
+
+```bash
+pip install coverage
+```
+Run coverage.py with pytest or unittest:
+
+Use coverage.py to run your tests and collect coverage data. You can execute the following command:
+
+``` bash
+coverage run -m pytest/unittest your_test_directory/
+```
+Replace your_test_directory/ with the actual directory where your test files are located and choose pytest or unittest accordingly.
+
+2. Generate Coverage Report:
+
+After running the tests, you can generate a coverage report by running:
+
+```bash
+coverage report -m
+```
+This command will display the code coverage report in the terminal, including the percentage of code coverage achieved for each module and function.
+
