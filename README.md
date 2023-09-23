@@ -4,6 +4,15 @@
 
 This is a Python program for analyzing stock data using various technical indicators and implementing a simple trading strategy. The program allows the user to input a stock symbol, start date, and end date, then loads historical data for the specified period, applies technical analysis indicators, and provides investment and profit/loss information based on a trading strategy.
 
+## Table of Contents
+- [Features](#features)
+- [Update 1](#update-1)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Code Coverage](#code-coverage)
+- [Contribution](#contribution)
 
 ## Features
 
@@ -108,3 +117,5 @@ coverage report -m
 ```
 This command will display the code coverage report in the terminal, including the percentage of code coverage achieved for each module and function.
 
+## Contribution
+- Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository.
