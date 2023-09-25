@@ -1,0 +1,12 @@
+ipython==7.31.1
+matplotlib==3.5.2
+mpl_finance==0.10.1
+mplfinance==0.12.9b7
+numpy==1.24.2
+numpy==1.21.5
+pandas==1.4.4
+pytest==7.1.2
+TA_Lib==0.4.19
+yfinance==0.2.12
+pyqt5==5.15.4
+Pillow==8.2.0
