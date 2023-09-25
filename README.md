@@ -41,6 +41,7 @@ This is a Python program for analyzing stock data using various technical indica
 Before you begin, ensure you have met the following requirements:
 
 - Python 3.7 or higher installed.
+- Required Python packages can be installed using `requirements.txt`.
 
 
 ## Installation
